@@ -1,0 +1,9 @@
+# Domov navody 316
+> Moderní gastronomický portál se sídlem v městě Praha, Praha.
+
+## Obsah webu
+- [Hlavní stránka](/index.html): Přehled publikací.
+- [O nás](/about.html): Kdo jsme a co děláme.
+- [Kontakt](/contact.html): Formulář a adresa.
+## Publikace
+- [Geotargeting Strategies for Global Networks](/geotargeting-strategies-for-global-networks.html)
