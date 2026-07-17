@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=DM+Sans:wght@400;600&display=swap');
+
+:root {
+    --owvku: hsl(164, 15%, 97%);
+    --fjvbt: hsl(164, 15%, 100%);
+    --pkpca: hsl(164, 10%, 15%);
+    --tcoyz: hsl(164, 10%, 45%);
+    --umwav: hsl(164, 70%, 38%);
+    --zwikg: hsl(344, 65%, 45%);
+    --lrtag: hsl(164, 15%, 88%);
+    --huvhd: 6px;
+    --rtxct: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --lbaka: 'Montserrat', sans-serif;
+    --kdvff: 'DM Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--owvku);
+    color: var(--pkpca);
+    font-family: var(--kdvff);
+    line-height: 1.7;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+a {
+    color: var(--umwav);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: var(--zwikg);
+    text-decoration: underline;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    background: var(--fjvbt);
+    border: 1px solid var(--lrtag);
+    border-radius: var(--huvhd);
+    padding: 40px;
+    box-shadow: var(--rtxct);
+    margin: auto;
+}
+
+h1, h2, h3 {
+    font-family: var(--lbaka);
+    margin-bottom: 20px;
+    color: var(--pkpca);
+}
+
+h1 {
+    font-size: 2.5rem;
+    border-bottom: 3px solid var(--umwav);
+    padding-bottom: 12px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.05rem;
+}
+
+ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+input, textarea, button {
+    padding: 12px;
+    border: 1px solid var(--lrtag);
+    border-radius: var(--huvhd);
+    font-family: var(--kdvff);
+    font-size: 1rem;
+    background: var(--owvku);
+    color: var(--pkpca);
+}
+
+button {
+    background: var(--umwav);
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+button:hover {
+    background: var(--zwikg);
+}
+
+footer {
+    margin-top: 40px;
+    border-top: 1px solid var(--lrtag);
+    padding-top: 20px;
+    font-size: 0.9rem;
+    color: var(--tcoyz);
+    text-align: center;
+}
